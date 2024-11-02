@@ -41,3 +41,29 @@ echo 'source <(kubectl completion bash)' >>~/.bashrc
 ```
 sudo /usr/local/bin/k3s-uninstall.sh
 ```
+
+# OR you can run the script to install K3s 
+
+### STEP 1: Clone the repository
+
+```
+git clone https://github.com/sparshk380/K3s-Installation-Guide.git
+```
+
+### STEP 2: Go to the directory 
+
+```
+cd K3s-Installation-Guide
+```
+
+### STEP 4: Give the permissions to execute the script
+
+```
+chmod +x k3s_installation.sh
+```
+
+### STEP 5: Execute the Script
+
+```
+bash k3s_installation.sh
+```
